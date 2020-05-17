@@ -1,0 +1,35 @@
+{
+    "name": "@dao-vue/toggle",
+    "version": "0.0.1",
+    "description": "A highly customizable vuejs toggle component for using in web-development.",
+    "main": "./dist/index.js",
+    "scripts": {
+        "test": "vue serve src/DaoToggle.vue",
+        "build": "bili --name index --plugin vue --vue.css false"
+    },
+    "files": [
+        "dist/*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/OtabekSadiridinov/DaoToggle.git"
+    },
+    "keywords": [
+        "DaoToggle",
+        "ToggleBtn",
+        "Dao",
+        "Toggle",
+        "Switch"
+    ],
+    "author": "Otabek Sadiridinov",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/OtabekSadiridinov/DaoToggle/issues"
+    },
+    "homepage": "https://github.com/OtabekSadiridinov/DaoToggle#readme",
+    "devDependencies": {
+        "bili": "^4.10.0",
+        "rollup-plugin-vue": "^5.1.7",
+        "vue-template-compiler": "^2.6.11"
+    }
+}
